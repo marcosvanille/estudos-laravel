@@ -20,37 +20,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5af8d3f-c08c-4c69-bee9-138e478d71a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/prototipo/resources/views/property/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/prototipo/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/views/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/resources/views/templates/template.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototipo/webpack.mix.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +139,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,6 +153,7 @@
       <workItem from="1604423495092" duration="610000" />
       <workItem from="1604424209706" duration="617000" />
       <workItem from="1604425795603" duration="2944000" />
+      <workItem from="1605186398917" duration="1084000" />
     </task>
     <servers />
   </component>
@@ -110,6 +170,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604425789942">
@@ -120,5 +181,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1604427868478" />
+    <state x="-1225" y="117" key="SettingsEditor" timestamp="1605187154668">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1225" y="117" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605187154668" />
   </component>
 </project>
