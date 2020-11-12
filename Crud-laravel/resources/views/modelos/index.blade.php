@@ -16,7 +16,7 @@
                 @foreach($modelos as $modelo)
                     <tr>
                         <th scope="row">{{ $modelo->id }}</th>
-                        <td>{{ $modelo->modelo }} - {{ $modelo->status }}</td>
+                        <td>{{ $modelo->modelo123 }} - {{ $modelo->status }}</td>
                         <td>
                             <a href="{{route('modelos.show', ['modelo' => $modelo->id])}}">Visualizar</a>
                             <a href="{{route('modelos.edit', ['modelo' => $modelo->id])}}">Editar</a>
