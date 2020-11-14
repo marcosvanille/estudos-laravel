@@ -20,95 +20,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5af8d3f-c08c-4c69-bee9-138e478d71a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/.styleci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/database/seeds/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/public/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/pagination.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/passwords.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/lang/en/validation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/views/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/resources/views/templates/template.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/server.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototipo/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/estudos-laravel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Controllers/ModeloController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Models/Modelo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/migrations/2020_11_10_192948_create_modelos_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/js/components/ExampleComponent.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/auth/login.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/auth/register.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/auth/verify.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/modelos/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/modelos/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/modelos/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/modelos/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud-laravel/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-projeto/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-projeto/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +181,8 @@
       <workItem from="1604424209706" duration="617000" />
       <workItem from="1604425795603" duration="2944000" />
       <workItem from="1605186398917" duration="1084000" />
+      <workItem from="1605324339548" duration="4434000" />
+      <workItem from="1605334298999" duration="187000" />
     </task>
     <servers />
   </component>
@@ -173,10 +202,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604425789942">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2663" y="278" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605329968573">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="298" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1604425789942" />
+    <state x="2663" y="278" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1605329968573" />
     <state x="755" y="465" width="399" height="156" key="NewPhpFileDialog" timestamp="1604427868478">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -185,5 +215,9 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1225" y="117" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605187154668" />
+    <state x="651" y="279" width="796" height="522" key="find.popup" timestamp="1605330828886">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="651" y="279" width="796" height="522" key="find.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1605330828886" />
   </component>
 </project>
