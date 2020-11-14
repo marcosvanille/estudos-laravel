@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Modelo; // chamando a model na controller para poder usar os dados no banco
 
+
+//Usei o seguinte comando no terminal para criar essa Controller e todos os metodos para contruir um crud : php artisan make:controller ModeloController -r de resource
 class ModeloController extends Controller
 {
     /**
@@ -11,9 +14,10 @@ class ModeloController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index() //Exibir
     {
-        return view('modelos.index');
+        $modelos = Modelo::all();
+        return view('modelos.index')->with(['modelos' => $modelos]);
     }
 
     /**
@@ -21,9 +25,9 @@ class ModeloController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create() //Criar
     {
-        //
+        return view('modelos.create');
     }
 
     /**
@@ -34,7 +38,9 @@ class ModeloController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Modelo::create($request->all());
+
+        return redirect()->route('modelos.index');
     }
 
     /**
@@ -43,9 +49,9 @@ class ModeloController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
-        //
+    public function show($id) //Show para visualizar um unico modelo
+    {   $modelo = Modelo::find($id);
+        return view('modelos.show')->with(['modelo' => $modelo]);
     }
 
     /**
@@ -54,9 +60,10 @@ class ModeloController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($id) //Editar
     {
-        //
+        $modelo = Modelo::find($id);
+        return view('modelos.edit')->with(['modelo' => $modelo]);
     }
 
     /**
@@ -66,9 +73,12 @@ class ModeloController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id) // update para atualizar
     {
-        //
+        $modelo = Modelo::find($id)->update($request->all());
+        return redirect()->route('modelos.index');
+
+
     }
 
     /**
@@ -77,8 +87,9 @@ class ModeloController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id) //destroy para deletar
     {
-        //
+        $modelo = Modelo::find($id)->delete();
+        return redirect()->route('modelos.index');
     }
 }
