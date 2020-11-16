@@ -20,3 +20,4 @@ Route::resource('modelos' , 'ModeloController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/modelos/{modelo}/delete', 'ModeloController@destroy')->name('modelos.destroy');
