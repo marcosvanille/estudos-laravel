@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Modelo; // chamando a model na controller para poder usar os dados no banco
+use App\Models\Modelo;
+
+// chamando a model na controller para poder usar os dados no banco
 
 
 //Usei o seguinte comando no terminal para criar essa Controller e todos os metodos para contruir um crud : php artisan make:controller ModeloController -r de resource
@@ -16,8 +18,8 @@ class ModeloController extends Controller
      */
     public function index() //Exibir
     {
-        $modelos = Modelo::all();
-        return view('modelos.index')->with(['modelos' => $modelos]);
+        $modelos123 = Modelo::all();
+        return view('modelos.index', compact('modelos123'));
     }
 
     /**
@@ -33,7 +35,7 @@ class ModeloController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -46,18 +48,20 @@ class ModeloController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id) //Show para visualizar um unico modelo
-    {   $modelo = Modelo::find($id);
+    {
+        $modelo = Modelo::find($id);
         return view('modelos.show')->with(['modelo' => $modelo]);
+//        essa parte o with ,a variavel $modelo que pega do banco torna 'modelo' um array atraves do => para ser passado para view
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id) //Editar
@@ -69,8 +73,8 @@ class ModeloController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id) // update para atualizar
@@ -84,7 +88,7 @@ class ModeloController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id) //destroy para deletar

@@ -15,7 +15,7 @@
                 </thead>
                 <tbody>
 {{--                a variavel $modelos vem da controller do metodo index--}}
-                @foreach($modelos as $modelo)
+                @foreach($modelos123 as $modelo)
                 <tr>
 {{--                    o id ,modeloCarros ,status ,sao as colunas do banco de dados, vem da variavel $modelos que esta na--}}
 {{--                    controller ,a variavel $modelos pega em formato de array todos os dados da variavel $modelosBD que--}}
