@@ -54,7 +54,7 @@ class ModeloController extends Controller
     public function show($id) //Show para visualizar um unico modelo
     {
         $modelo = Modelo::find($id);
-        return view('modelos.show')->with(['modelo' => $modelo]);
+        return view('modelos.show' , compact('modelo'));
 //        essa parte o with ,a variavel $modelo que pega do banco torna 'modelo' um array atraves do => para ser passado para view
     }
 
