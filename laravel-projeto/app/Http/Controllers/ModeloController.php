@@ -55,7 +55,6 @@ class ModeloController extends Controller
     {
         $modelo = Modelo::find($id);
         return view('modelos.show' , compact('modelo'));
-//        essa parte o with ,a variavel $modelo que pega do banco torna 'modelo' um array atraves do => para ser passado para view
     }
 
     /**
@@ -67,7 +66,9 @@ class ModeloController extends Controller
     public function edit($id) //Editar
     {
         $modelo = Modelo::find($id);
-        return view('modelos.edit')->with(['modelo' => $modelo]);
+        return view('modelos.edit')->with(['modelo123' => $modelo]);
+        //        essa parte o with ,a variavel $modelo que pega do banco torna 'modelo123' um array atraves do => para ser passado para view
+
     }
 
     /**

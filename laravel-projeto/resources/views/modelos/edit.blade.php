@@ -3,14 +3,14 @@
 @section('content')
     <div class="container">
         <div class="col-md-12">
-            <form action="{{ route('modelos.update' , ['modelo' => $modelo->id]) }}" class="form-horizontal" method="POST">
+            <form action="{{ route('modelos.update' , ['modelo' => $modelo123->id]) }}" class="form-horizontal" method="POST">
                 @csrf
                 @method('PUT')
                 <div class="row">
                     <div class="form-group">
                         <label for="">Modelo do Veiculo</label>
                         <input type="text" class="form-control" name="modelo"
-                               value="{{ old('modelo', $modelo->modelo) }}">
+                               value="{{ old('modelo', $modelo123->modelo) }}">
                     </div>
                 </div>
 
