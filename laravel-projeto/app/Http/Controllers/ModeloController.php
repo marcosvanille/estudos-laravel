@@ -42,7 +42,7 @@ class ModeloController extends Controller
     {
         Modelo::create($request->all());
 
-        return redirect()->route('modelos.index');
+          return redirect()->route('modelos.index');
     }
 
     /**

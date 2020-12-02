@@ -22,7 +22,7 @@
     <list default="true" id="4faabecb-ed73-4655-96ca-1f791f92c8d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/laravel-projeto/app/Http/Controllers/ModeloController.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-projeto/app/Http/Controllers/ModeloController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laravel-projeto/resources/views/modelos/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-projeto/resources/views/modelos/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laravel-projeto/resources/views/modelos/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-projeto/resources/views/modelos/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,9 @@
       <workItem from="1606023346648" duration="3001000" />
       <workItem from="1606243152292" duration="1385000" />
       <workItem from="1606355343582" duration="130000" />
-      <workItem from="1606434881903" duration="692000" />
+      <workItem from="1606434881903" duration="1354000" />
+      <workItem from="1606775000744" duration="206000" />
+      <workItem from="1606825697408" duration="1992000" />
     </task>
     <servers />
   </component>
